@@ -1,0 +1,46 @@
+public class IsItOddOrNah {
+
+    public static void main(String[] args) {
+        System.out.println(sumOdd(10010, 102));
+        System.out.println(sumOdd(78, 84));
+        System.out.println(sumOdd(73, 96));
+        System.out.println(sumOdd(56, 70));
+        System.out.println(sumOdd(11, 85));
+        System.out.println(sumOdd(75, 63));
+        System.out.println(sumOdd(30, 87));
+        System.out.println(sumOdd(45, 17));
+        System.out.println(sumOdd(56, 74));
+        System.out.println(sumOdd(56, 33));
+        System.out.println(sumOdd(38, 46));
+        System.out.println(sumOdd(24, 27));
+        System.out.println(sumOdd(90, 76));
+        System.out.println(sumOdd(99, 18));
+        System.out.println(sumOdd(92, 77));
+        System.out.println(sumOdd(54, 1));
+        System.out.println(sumOdd(95, 95));
+        System.out.println(sumOdd(30, 80));
+        System.out.println(sumOdd(96, 4));
+        System.out.println(sumOdd(71, 12));
+        System.out.println(sumOdd(21, 5));
+
+    }
+
+    public static boolean isOdd(int number) {
+        if (!number >= 0) {
+            return false;
+        } else if (number % 2 == 0);
+        return true;
+        } else {
+            return false;
+        }
+
+    public static int summOdd(int num1, int num2) {
+        int sum = 0;
+        for (int i = num1; i <= num2; i++) {
+            if (isOdd(i)) {
+                sum += i;
+            }
+        }
+        return sum;
+    }
+}
