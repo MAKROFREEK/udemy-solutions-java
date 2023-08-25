@@ -4,12 +4,17 @@ public class WhileLoopChallenge {
 
     public static void main(String[] args) {
         int i = 5;
-        while (i <= 20) {
+        int iteration = 1;
+        int totalEven = 0;
+        while (iteration <= 5) {
             if (isEvenNumber(i)) {
                 System.out.println(i);
-            }
+            } //TODO this needs to break once 5 even numbers are found/printed
+            iteration++;
             i++;
+            totalEven += i;
         }
+        System.out.println("The total of even numbers equals: " + totalEven + ".");
     }
 
     public static boolean isEvenNumber(int number) {
