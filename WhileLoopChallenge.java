@@ -9,11 +9,11 @@ public class WhileLoopChallenge {
         while (iteration <= 5) {
             if (isEvenNumber(i)) {
                 System.out.println(i);
+                totalEven += i;
             } //TODO this needs to break once 5 even numbers are found/printed
             iteration++;
             i++;
-            totalEven += i;
-        }
+
         System.out.println("The total of even numbers equals: " + totalEven + ".");
     }
 
@@ -23,4 +23,5 @@ public class WhileLoopChallenge {
         }
         return false;
     }
+}
 }
