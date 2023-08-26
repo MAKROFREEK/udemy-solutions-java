@@ -9,6 +9,13 @@ public class DigitSum {
         sumDigits(5678);
         System.out.println(""); // adds a space in the output
         sumDigits(3939);
+        sumDigits(-1);
+        System.out.println(""); // adds a space in the output
+        sumDigits(4);
+        System.out.println(""); // adds a space in the output
+        sumDigits(123);
+        System.out.println(""); // adds a space in the output
+        sumDigits(32123);
     }
 
     // This code calculates the sum of the individual digits in a given number.
