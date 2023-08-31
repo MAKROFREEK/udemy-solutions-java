@@ -9,11 +9,12 @@ public class LargestPrime {
     }
 
     public static int getLargestPrime(int n) {
-        if (n < 0) {
-            return -1;
-        }
         int largestPrime = 2;
+        if (n < 2) {
+            return largestPrime = -1;
+        }
         for (int i = 2; i <= n; i++) {
+
             if (n % i == 0) {
                 largestPrime = i;
                 while (n % i == 0) {
@@ -23,5 +24,4 @@ public class LargestPrime {
         }
         return largestPrime;
     }
-
 }
