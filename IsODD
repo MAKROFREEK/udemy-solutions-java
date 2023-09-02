@@ -1,4 +1,4 @@
-public class IsOdd {
+public class IsItOddOrNah {
 
     public static void main(String[] args) {
     System.out.println(isOdd(4));
