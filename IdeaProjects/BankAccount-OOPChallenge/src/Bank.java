@@ -49,11 +49,6 @@ public class Bank {
         this.phoneNumber = phoneNumber;
     }
 
-    //bank method
-    public Bank() {
-
-    }
-
     public void depositFunds(double amount) {
         System.out.println("Starting Balance: $" + accountBalance);
         accountBalance += amount;
@@ -72,6 +67,19 @@ public class Bank {
             System.out.println("Funds withdrawn: $" + amount);
             System.out.println("New Balance: $" + accountBalance);
         }
+    }
+
+
+    public Bank() {
+        System.out.println("Empty Constructor Called");
+    }
+    public Bank(String accountNumber, double accountBalance, String customerName, String email, String phoneNumber) {
+        System.out.println("Account Constructor with Parameters Called");
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
 
