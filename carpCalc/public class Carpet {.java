@@ -6,6 +6,9 @@ public class Carpet {
     }
 
     public double getCost() {
+        if (cost < 0) {
+            return 0;
+        }
         return cost;
     }
 
