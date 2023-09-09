@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
 
         Bank bank = new Bank("1234", 100, "Bob", "bob@me.com", "555-555-5555");
@@ -13,7 +12,6 @@ public class Main {
         System.out.println(secondCustomer.getName());
         System.out.println(secondCustomer.getCreditLimit());
         System.out.println(secondCustomer.getEmail());
-
     }
 }
 
