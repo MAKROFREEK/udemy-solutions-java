@@ -16,7 +16,8 @@ public class Worker {
     }
 
     public double getPay() {
-        return 0.0;
+        int pay = 0;
+        return pay;
     }
 
 }
