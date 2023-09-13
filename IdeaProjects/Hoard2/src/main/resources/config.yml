@@ -1,0 +1,20 @@
+spawn_interval: 5
+min_distance: 5
+max_distance: 15
+spawn_limit: 10
+worlds:
+  world:
+    mobs:
+      - ZOMBIE
+      - HUSK
+  world_nether:
+    mobs:
+      - PIGLIN_BRUTE
+      - PIGLIN
+  world_the_end:
+    mobs:
+      - ENDERMAN
+#customworldhere:
+#  mobs:
+#    - CREEPER
+#    - CAVE_SPIDER

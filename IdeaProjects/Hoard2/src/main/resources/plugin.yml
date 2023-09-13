@@ -1,0 +1,4 @@
+name: Hoard2
+version: '${project.version}'
+main: org.smaamc.hoard2.Hoard2
+api-version: '1.20'
